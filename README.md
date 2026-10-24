@@ -19,6 +19,7 @@ The primary objective is to characterize transcriptional differences in the anal
 
 This module forms the transcriptomics component of **MI-Agata-MultiOmicsFlow**, a multi-omics analysis project integrating genomics, epigenomics, transcriptomics, and machine learning approaches for cancer research.
 
+
 ## 2. Research Objectives
 
 The main objectives are to:
@@ -31,6 +32,7 @@ The main objectives are to:
 6. Interpret the biological relevance of significant genes and enriched pathways.
 7. Validate expected analysis outputs through final quality control.
 8. Prepare transcriptomic findings for subsequent multi-omics integration.
+
 
 ## 3. Analysis Workflow
 
@@ -55,6 +57,7 @@ Additional supporting scripts may be used for data preparation and preprocessing
 ## 4. Differential Gene Expression Analysis
 
 Differential expression analysis was performed to identify genes exhibiting statistically significant expression changes in the analyzed TCGA-BRCA comparison.
+
 
 ### 4.1 Significance Criteria
 
@@ -85,6 +88,7 @@ The direction of differential expression depends on the comparison and reference
 
 These results indicate substantial transcriptomic differences within the analyzed comparison and provide the basis for downstream biological interpretation.
 
+
 ### 4.3 Volcano Plot
 
 The volcano plot visualizes gene-level statistical significance against log2 fold change, highlighting genes with large expression changes and strong statistical evidence.
@@ -96,6 +100,7 @@ The volcano plot visualizes gene-level statistical significance against log2 fol
 ## 5. Exploratory Gene Expression Analysis
 
 Exploratory visualization was used to assess expression patterns, sample relationships, and major sources of variation.
+
 
 ### 5.1 Gene Expression Heatmap
 
@@ -115,7 +120,6 @@ PCA provides a low-dimensional representation of sample relationships and can he
 
 ![TCGA-BRCA Principal Component Analysis](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_pca.png)
 
-
 PCA is an exploratory approach and does not independently demonstrate statistically significant group separation.
 
 
@@ -123,12 +127,14 @@ PCA is an exploratory approach and does not independently demonstrate statistica
 
 Functional enrichment analysis was performed to identify biological processes and pathways statistically overrepresented among significant differentially expressed genes.
 
+
 ### 6.1 Functional Annotation Databases
 
 Two annotation resources were used:
 
 - **GO Biological Process 2023**
 - **KEGG 2021 Human**
+  
 
 ### 6.2 Statistical Method
 
@@ -140,6 +146,7 @@ The background gene universe consisted of mapped genes from the differential exp
 
 This approach evaluates whether genes associated with particular biological annotations are represented more frequently among the selected genes than expected under the statistical null model.
 
+
 ### 6.3 Enrichment Results
 
 | Database | Significant enriched terms |
@@ -148,6 +155,7 @@ This approach evaluates whether genes associated with particular biological anno
 | KEGG 2021 Human | 28 |
 
 These results highlight multiple biological processes and molecular pathways associated with the differentially expressed gene set.
+
 
 ## 7. GO Biological Process Enrichment
 
@@ -166,17 +174,21 @@ Prominent enriched biological processes included:
 
 The enrichment of extracellular matrix-related processes suggests that genes involved in tissue architecture, extracellular structural organization, and cell–matrix interactions are prominent among the differentially expressed genes.
 
+
 **Cell adhesion**
 
 Enrichment of cell adhesion-related processes highlights genes involved in cellular interactions and tissue organization.
+
 
 **Receptor-mediated signaling**
 
 G protein-coupled receptor signaling enrichment indicates representation of genes associated with extracellular signal recognition and cellular communication.
 
+
 **Developmental processes**
 
 The enrichment of nervous system development-related annotations may reflect shared developmental or signaling genes rather than a direct neurological phenotype.
+
 
 ### 7.2 GO Enrichment Visualization
 
@@ -185,6 +197,7 @@ The enrichment of nervous system development-related annotations may reflect sha
 The visualization summarizes selected enriched GO Biological Process terms.
 
 Enrichment results indicate statistical overrepresentation and do not independently establish pathway activation or causal mechanisms.
+
 
 ## 8. KEGG Pathway Enrichment
 
@@ -195,6 +208,7 @@ Significantly enriched KEGG pathways included:
 - Complement and coagulation cascades
 - Calcium signaling pathway
 - ECM-receptor interaction
+  
 
 ### 8.1 Biological Interpretation
 
@@ -202,15 +216,18 @@ Significantly enriched KEGG pathways included:
 
 Neuroactive ligand-receptor interaction and calcium signaling pathways contain genes involved in receptor-mediated communication and intracellular signaling.
 
+
 **Immune-related processes**
 
 Cytokine-cytokine receptor interaction and complement-related pathways suggest representation of genes associated with immune signaling and inflammatory processes.
+
 
 **Extracellular matrix interactions**
 
 ECM-receptor interaction enrichment is consistent with the extracellular matrix-related findings identified through GO Biological Process analysis.
 
 Together, these findings identify candidate molecular processes for further investigation in breast cancer research.
+
 
 ### 8.2 KEGG Enrichment Visualization
 
@@ -234,6 +251,7 @@ The differential expression and functional enrichment results highlight several 
 | Immune-related signaling | Cytokine-cytokine receptor interaction; complement and coagulation cascades | Immune and inflammatory processes |
 | Developmental processes | GO nervous system development | Developmental gene programs represented in the expression dataset |
 
+
 ### Key Findings
 
 The analysis identified widespread differential gene expression and enrichment of biological processes associated with:
@@ -246,9 +264,11 @@ The analysis identified widespread differential gene expression and enrichment o
 
 These results provide candidate biological themes for further investigation and integration with epigenomic findings.
 
+
 ## 10. Output Files and Repository Structure
 
 The module separates analysis scripts, generated results, visualizations, and reports.
+
 
 ### 10.1 Analysis Scripts
 
@@ -257,6 +277,7 @@ The analysis scripts are located in:
 `month3_transcriptomics/scripts/`
 
 The workflow includes dataset assessment, RNA-seq acquisition, expression matrix construction, differential expression, visualization, enrichment, biological interpretation, and quality control.
+
 
 ### 10.2 Figures
 
@@ -271,6 +292,7 @@ The generated visualizations are available in:
 | [PCA Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_pca.png) | Sample-level variation |
 | [GO Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png) | GO Biological Process enrichment |
 | [KEGG Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png) | KEGG pathway enrichment |
+
 
 ### 10.3 Main Analysis Tables
 
@@ -290,6 +312,7 @@ Important tables include:
 
 These tables contain differential expression statistics, gene annotations, functional enrichment results, and summary information.
 
+
 ### 10.4 Reports
 
 Important reports include:
@@ -300,9 +323,11 @@ Important reports include:
 
 These reports document the biological interpretation, overall analysis summary, and final quality control results.
 
+
 ## 11. Quality Control
 
 Final quality control was performed to assess the presence and validity of expected analysis outputs according to the implemented validation checks.
+
 
 ### 11.1 QC Summary
 
@@ -314,6 +339,7 @@ Final quality control was performed to assess the presence and validity of expec
 | Final QC status | PASS |
 
 All 16 expected output files passed the implemented quality control checks.
+
 
 ### 11.2 Interpretation of QC Results
 
@@ -329,6 +355,7 @@ However, successful file-level QC does not independently establish:
 
 These considerations remain important when interpreting the results and planning downstream analyses.
 
+
 ## 12. Software and Dependencies
 
 The workflow uses Python and scientific computing libraries, including:
@@ -343,6 +370,7 @@ The workflow uses Python and scientific computing libraries, including:
 | `gseapy` | Functional enrichment analysis |
 
 A dedicated Python virtual environment is used for the transcriptomics module.
+
 
 ### Reproducibility Considerations
 
@@ -360,13 +388,16 @@ The repository provides analysis scripts and generated outputs to support workfl
 
 Raw or restricted datasets may be excluded from the public repository for data governance, licensing, privacy, or storage reasons.
 
+
 ## 13. Scientific Limitations
 
 Several considerations are important when interpreting the results.
 
+
 ### 13.1 Cohort Composition
 
 Observed expression differences may be influenced by sample composition, tumor heterogeneity, clinical characteristics, and other potential confounding factors.
+
 
 ### 13.2 Statistical Interpretation
 
@@ -374,11 +405,13 @@ Differential expression identifies statistical associations between expression m
 
 It does not independently establish causal relationships.
 
+
 ### 13.3 Functional Enrichment
 
 Enrichment analysis is sensitive to gene selection criteria, annotation coverage, background gene definitions, and pathway database structure.
 
 Overlapping gene sets may generate redundant enrichment findings.
+
 
 ### 13.4 Pathway Activity
 
@@ -386,9 +419,11 @@ Overrepresentation of genes within a pathway does not directly demonstrate pathw
 
 Additional analyses are required to investigate directional pathway changes.
 
+
 ### 13.5 External Validation
 
 Independent datasets and additional experimental or computational validation may be required to assess the robustness and generalizability of the findings.
+
 
 ## 14. Future Multi-Omics Integration
 
@@ -405,6 +440,7 @@ Planned analyses include:
 7. Extension of reproducibility and project-level quality control documentation.
 
 The objective is to develop a more comprehensive molecular interpretation than can be obtained from a single omics layer alone.
+
 
 ## 15. Conclusion
 
