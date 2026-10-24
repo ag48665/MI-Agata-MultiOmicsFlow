@@ -88,7 +88,9 @@ These results indicate substantial transcriptomic differences within the analyze
 
 The volcano plot visualizes gene-level statistical significance against log2 fold change, highlighting genes with large expression changes and strong statistical evidence.
 
-![TCGA-BRCA Volcano Plot](month3_transcriptomics/outputs/figures/tcga_brca_volcano_plot.png)
+![TCGA-BRCA Volcano Plot](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_volcano_plot.png)
+
+[View Volcano Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_volcano_plot.png)
 
 ## 5. Exploratory Gene Expression Analysis
 
@@ -100,7 +102,9 @@ The heatmap visualizes expression patterns among selected genes and samples.
 
 It provides an exploratory overview of expression heterogeneity and potential sample-level patterns.
 
-![TCGA-BRCA Gene Expression Heatmap](month3_transcriptomics/outputs/figures/tcga_brca_heatmap.png)
+![TCGA-BRCA Gene Expression Heatmap](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_heatmap.png)
+
+[View Gene Expression Heatmap](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_heatmap.png)
 
 ### 5.2 Principal Component Analysis
 
@@ -108,7 +112,9 @@ Principal component analysis (PCA) was used to explore major sources of variatio
 
 PCA provides a low-dimensional representation of sample relationships and can help identify potential clustering patterns, heterogeneity, or outliers.
 
-![TCGA-BRCA Principal Component Analysis](month3_transcriptomics/outputs/figures/tcga_brca_pca.png)
+![TCGA-BRCA Principal Component Analysis](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_pca.png)
+
+[View PCA Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_pca.png)
 
 PCA is an exploratory approach and does not independently demonstrate statistically significant group separation.
 
@@ -173,7 +179,9 @@ The enrichment of nervous system development-related annotations may reflect sha
 
 ### 7.2 GO Enrichment Visualization
 
-![GO Biological Process Enrichment](month3_transcriptomics/outputs/figures/tcga_brca_go_enrichment.png)
+![GO Biological Process Enrichment](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png)
+
+[View GO Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png)
 
 The visualization summarizes selected enriched GO Biological Process terms.
 
@@ -207,7 +215,9 @@ Together, these findings identify candidate molecular processes for further inve
 
 ### 8.2 KEGG Enrichment Visualization
 
-![KEGG Pathway Enrichment](month3_transcriptomics/outputs/figures/tcga_brca_kegg_enrichment.png)
+![KEGG Pathway Enrichment](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png)
+
+[View KEGG Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png)
 
 The visualization presents selected enriched KEGG pathways.
 
@@ -242,43 +252,35 @@ These results provide candidate biological themes for further investigation and 
 
 The module separates analysis scripts, generated results, visualizations, and reports.
 
-```text
-month3_transcriptomics/
-│
-├── scripts/
-│   ├── 01_dataset_assessment.py
-│   ├── 02_download_tcga_rnaseq.py
-│   ├── 03_build_expression_matrix.py
-│   ├── 04_differential_expression.py
-│   ├── 05_visualize_differential_expression.py
-│   ├── 06_heatmap_pca.py
-│   ├── 07_pathway_enrichment.py
-│   ├── 08_visualize_pathways.py
-│   ├── 09_biological_interpretation.py
-│   └── 10_final_qc_summary.py
-│
-├── outputs/
-│   ├── tables/
-│   └── figures/
-│       ├── tcga_brca_volcano_plot.png
-│       ├── tcga_brca_heatmap.png
-│       ├── tcga_brca_pca.png
-│       ├── tcga_brca_go_enrichment.png
-│       └── tcga_brca_kegg_enrichment.png
-│
-├── reports/
-│   ├── tcga_brca_biological_interpretation.md
-│   ├── tcga_brca_final_summary.md
-│   └── tcga_brca_final_qc.csv
-│
-└── README.md
-```
+### 10.1 Analysis Scripts
 
-The directory structure shown above describes the intended organization of the module. Actual script and output locations should be checked against the repository before publication.
+The analysis scripts are located in:
 
-### 10.1 Main Analysis Tables
+`month3_transcriptomics/scripts/`
 
-Key output tables include:
+The workflow includes dataset assessment, RNA-seq acquisition, expression matrix construction, differential expression, visualization, enrichment, biological interpretation, and quality control.
+
+### 10.2 Figures
+
+The generated visualizations are available in:
+
+`month3_transcriptomics/figures/`
+
+| Figure | Description |
+|---|---|
+| [Volcano Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_volcano_plot.png) | Differential expression significance and fold changes |
+| [Gene Expression Heatmap](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_heatmap.png) | Gene expression patterns |
+| [PCA Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_pca.png) | Sample-level variation |
+| [GO Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png) | GO Biological Process enrichment |
+| [KEGG Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png) | KEGG pathway enrichment |
+
+### 10.3 Main Analysis Tables
+
+Key output tables are located in:
+
+`month3_transcriptomics/outputs/tables/`
+
+Important tables include:
 
 - `tcga_brca_differential_expression.csv`
 - `tcga_brca_significant_genes.csv`
@@ -290,13 +292,13 @@ Key output tables include:
 
 These tables contain differential expression statistics, gene annotations, functional enrichment results, and summary information.
 
-### 10.2 Reports
+### 10.4 Reports
 
 Important reports include:
 
-- `reports/tcga_brca_biological_interpretation.md`
-- `reports/tcga_brca_final_summary.md`
-- `reports/tcga_brca_final_qc.csv`
+- `month3_transcriptomics/reports/tcga_brca_biological_interpretation.md`
+- `month3_transcriptomics/reports/tcga_brca_final_summary.md`
+- `month3_transcriptomics/reports/tcga_brca_final_qc.csv`
 
 These reports document the biological interpretation, overall analysis summary, and final quality control results.
 
@@ -420,7 +422,7 @@ The module contributes a structured transcriptomics analysis component to the br
 
 ---
 
-**Project:** MI-Agata-MultiOmicsFlow  
+**Project:** [MI-Agata-MultiOmicsFlow](https://github.com/ag48665/MI-Agata-MultiOmicsFlow)  
 **Module:** Month 3 — Transcriptomics  
 **Dataset:** TCGA-BRCA  
 **Final analysis status:** Completed  
