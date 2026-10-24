@@ -51,6 +51,7 @@ The analysis is organized into sequential Python scripts.
 
 Additional supporting scripts may be used for data preparation and preprocessing.
 
+
 ## 4. Differential Gene Expression Analysis
 
 Differential expression analysis was performed to identify genes exhibiting statistically significant expression changes in the analyzed TCGA-BRCA comparison.
@@ -104,7 +105,7 @@ It provides an exploratory overview of expression heterogeneity and potential sa
 
 ![TCGA-BRCA Gene Expression Heatmap](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_heatmap.png)
 
-[View Gene Expression Heatmap](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_heatmap.png)
+
 
 ### 5.2 Principal Component Analysis
 
@@ -114,9 +115,9 @@ PCA provides a low-dimensional representation of sample relationships and can he
 
 ![TCGA-BRCA Principal Component Analysis](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_pca.png)
 
-[View PCA Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_pca.png)
 
 PCA is an exploratory approach and does not independently demonstrate statistically significant group separation.
+
 
 ## 6. Functional Enrichment Analysis
 
@@ -181,8 +182,6 @@ The enrichment of nervous system development-related annotations may reflect sha
 
 ![GO Biological Process Enrichment](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png)
 
-[View GO Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_go_enrichment.png)
-
 The visualization summarizes selected enriched GO Biological Process terms.
 
 Enrichment results indicate statistical overrepresentation and do not independently establish pathway activation or causal mechanisms.
@@ -217,11 +216,10 @@ Together, these findings identify candidate molecular processes for further inve
 
 ![KEGG Pathway Enrichment](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png)
 
-[View KEGG Enrichment Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_kegg_enrichment.png)
-
 The visualization presents selected enriched KEGG pathways.
 
 Statistical enrichment does not independently demonstrate increased or decreased pathway activity.
+
 
 ## 9. Integrated Biological Interpretation
 
