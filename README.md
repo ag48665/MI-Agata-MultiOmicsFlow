@@ -88,7 +88,7 @@ These results indicate substantial transcriptomic differences within the analyze
 
 The volcano plot visualizes gene-level statistical significance against log2 fold change, highlighting genes with large expression changes and strong statistical evidence.
 
-![TCGA-BRCA Volcano Plot](outputs/figures/tcga_brca_volcano_plot.png)
+![TCGA-BRCA Volcano Plot](month3_transcriptomics/outputs/figures/tcga_brca_volcano_plot.png)
 
 ## 5. Exploratory Gene Expression Analysis
 
@@ -100,7 +100,7 @@ The heatmap visualizes expression patterns among selected genes and samples.
 
 It provides an exploratory overview of expression heterogeneity and potential sample-level patterns.
 
-![TCGA-BRCA Gene Expression Heatmap](outputs/figures/tcga_brca_heatmap.png)
+![TCGA-BRCA Gene Expression Heatmap](month3_transcriptomics/outputs/figures/tcga_brca_heatmap.png)
 
 ### 5.2 Principal Component Analysis
 
@@ -108,7 +108,7 @@ Principal component analysis (PCA) was used to explore major sources of variatio
 
 PCA provides a low-dimensional representation of sample relationships and can help identify potential clustering patterns, heterogeneity, or outliers.
 
-![TCGA-BRCA Principal Component Analysis](outputs/figures/tcga_brca_pca.png)
+![TCGA-BRCA Principal Component Analysis](month3_transcriptomics/outputs/figures/tcga_brca_pca.png)
 
 PCA is an exploratory approach and does not independently demonstrate statistically significant group separation.
 
@@ -173,7 +173,7 @@ The enrichment of nervous system development-related annotations may reflect sha
 
 ### 7.2 GO Enrichment Visualization
 
-![GO Biological Process Enrichment](outputs/figures/tcga_brca_go_enrichment.png)
+![GO Biological Process Enrichment](month3_transcriptomics/outputs/figures/tcga_brca_go_enrichment.png)
 
 The visualization summarizes selected enriched GO Biological Process terms.
 
@@ -207,7 +207,7 @@ Together, these findings identify candidate molecular processes for further inve
 
 ### 8.2 KEGG Enrichment Visualization
 
-![KEGG Pathway Enrichment](outputs/figures/tcga_brca_kegg_enrichment.png)
+![KEGG Pathway Enrichment](month3_transcriptomics/outputs/figures/tcga_brca_kegg_enrichment.png)
 
 The visualization presents selected enriched KEGG pathways.
 
