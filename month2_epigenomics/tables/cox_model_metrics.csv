@@ -1,0 +1,10 @@
+metric,value
+training_c_index,0.9165175909361956
+testing_c_index,0.9039665970772442
+patients,706.0
+training_patients,564.0
+testing_patients,142.0
+events,88.0
+censored,618.0
+final_predictors,170.0
+selected_methylation_features,50.0

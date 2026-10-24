@@ -1,0 +1,20 @@
+result,value,std
+Clinical-genomic ROC AUC,0.5482080781434,0.0264489633777395
+Clinical-genomic-epigenomic ROC AUC,0.865727349161537,0.0505157576954341
+ROC AUC improvement after methylation,0.31751927101813704,
+Default threshold recall,0.1686274509803921,0.0762776180961838
+Optimized threshold recall,0.7738562091503268,0.0752131122892929
+Default threshold balanced accuracy,0.5835072738772928,0.0396044191182213
+Optimized threshold balanced accuracy,0.7852627492119324,0.0655159213471844
+Optimized uncalibrated threshold,0.278,0.0238746727726266
+Uncalibrated Brier score,0.0921775286074207,0.0045058037907577
+Sigmoid Brier score,0.0718307316443571,0.0022880936239965
+Isotonic Brier score,0.0683187288574393,0.0036246287917209
+Final calibrated ROC AUC,0.8529703333822882,
+Final calibrated PR AUC,0.6600409805986007,
+Final calibrated Brier score,0.0673704146077798,
+Final calibrated threshold,0.1149999999999999,
+Final balanced accuracy,0.7789322954912615,
+Final precision,0.3383084577114428,
+Final recall,0.7727272727272727,
+Final F1-score,0.4705882352941176,

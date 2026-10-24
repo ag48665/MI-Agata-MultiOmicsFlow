@@ -1,0 +1,4 @@
+variable,count,mean,std,min,median,max
+mutation_count,1009,125.13,386.37,3,61.0,7586
+unique_mutated_genes,1009,115.66,299.35,3,59.0,5297
+unique_variant_classes,1009,9.61,2.44,2,10.0,17

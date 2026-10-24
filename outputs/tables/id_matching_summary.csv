@@ -1,0 +1,9 @@
+metric,value
+clinical_records,1084.0
+unique_clinical_patients,1084.0
+unique_genomic_patients,1009.0
+matched_patients,1009.0
+unmatched_clinical_patients,75.0
+unmatched_genomic_patients,0.0
+merged_records,1009.0
+match_percentage,93.08

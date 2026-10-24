@@ -1,0 +1,68 @@
+category,check,status,details
+required_report,month2_final_report.md,PASS,"Exists; size=9,778 bytes"
+required_report,model_validation_report.md,PASS,"Exists; size=7,352 bytes"
+required_report,threshold_optimization_report.md,PASS,"Exists; size=4,589 bytes"
+required_report,model_calibration_report.md,PASS,"Exists; size=3,498 bytes"
+required_report,final_epigenomic_model_report.md,PASS,"Exists; size=1,486 bytes"
+required_report,month2_results_summary.md,PASS,"Exists; size=4,284 bytes"
+required_report,month2_manuscript_results.md,PASS,"Exists; size=3,080 bytes"
+required_report,month2_manuscript_discussion.md,PASS,"Exists; size=3,745 bytes"
+required_report,month2_manuscript_conclusions.md,PASS,Exists; size=974 bytes
+required_report,month2_manuscript_sections.md,PASS,"Exists; size=7,809 bytes"
+required_table,model_validation_summary.csv,PASS,Exists; size=749 bytes
+required_table,model_validation_folds.csv,PASS,"Exists; size=1,653 bytes"
+required_table,model_leakage_audit.csv,PASS,"Exists; size=380,761 bytes"
+required_table,threshold_optimization_summary.csv,PASS,Exists; size=835 bytes
+required_table,optimized_thresholds.csv,PASS,Exists; size=510 bytes
+required_table,calibration_validation_summary.csv,PASS,Exists; size=639 bytes
+required_table,calibration_validation_folds.csv,PASS,"Exists; size=1,394 bytes"
+required_table,final_epigenomic_model_metrics.csv,PASS,Exists; size=317 bytes
+required_table,final_epigenomic_model_features.csv,PASS,"Exists; size=16,194 bytes"
+required_table,final_calibrated_threshold.csv,PASS,Exists; size=131 bytes
+required_table,final_calibrated_oof_predictions.csv,PASS,"Exists; size=26,540 bytes"
+required_table,month2_key_results.csv,PASS,"Exists; size=1,078 bytes"
+required_figure,model_validation_roc_auc.png,PASS,"Exists; size=122,094 bytes"
+required_figure,threshold_validation_roc_curve.png,PASS,"Exists; size=136,642 bytes"
+required_figure,threshold_validation_precision_recall.png,PASS,"Exists; size=106,386 bytes"
+required_figure,confusion_matrix_threshold_050.png,PASS,"Exists; size=61,642 bytes"
+required_figure,confusion_matrix_optimized_threshold.png,PASS,"Exists; size=60,429 bytes"
+required_figure,model_calibration_curve.png,PASS,"Exists; size=216,340 bytes"
+required_figure,calibrated_probability_distribution.png,PASS,"Exists; size=84,622 bytes"
+required_figure,cox_risk_groups_survival.png,PASS,"Exists; size=91,759 bytes"
+required_figure,cox_top_hazard_ratios.png,PASS,"Exists; size=240,589 bytes"
+required_figure,combined_feature_importance.png,PASS,"Exists; size=306,231 bytes"
+required_model,final_epigenomic_calibrated_model.pkl,PASS,"Exists; size=8,359,607 bytes"
+required_model,final_epigenomic_model_config.json,PASS,Exists; size=887 bytes
+metrics,roc_auc,PASS,0.852970
+metrics,pr_auc,PASS,0.660041
+metrics,brier_score,PASS,0.067370
+metrics,threshold,PASS,0.115000
+metrics,accuracy,PASS,0.783593
+metrics,balanced_accuracy,PASS,0.778932
+metrics,precision,PASS,0.338308
+metrics,recall,PASS,0.772727
+metrics,f1_score,PASS,0.470588
+validation,Expected validation models,PASS,Both baseline and epigenomic models present
+validation,ROC AUC: clinical_genomic,PASS,0.548208
+validation,ROC AUC: clinical_genomic_epigenomic,PASS,0.865727
+threshold,Threshold strategies,PASS,Default and optimized strategies present
+threshold,Optimized raw threshold,PASS,0.278000
+calibration,Calibration methods,PASS,All three methods present
+calibration,Best calibration by Brier score,PASS,isotonic; Brier=0.068319
+config,Final config readable,PASS,Valid JSON
+config,Calibration configuration,PASS,isotonic
+config,Threshold consistency,PASS,Config and metrics agree: 0.115000
+OOF,Required OOF columns,PASS,All required columns present
+OOF,Unique OOF patients,PASS,707 unique patients
+OOF,Probability validity,PASS,"All probabilities are finite and in [0,1]"
+package,Month 2 package,PASS,outputs/month2_package
+package,Package file: README.md,PASS,README.md
+package,Package file: manifest.csv,PASS,manifest.csv
+package,Package file: package_metadata.json,PASS,package_metadata.json
+package,Package file: final_epigenomic_calibrated_model.pkl,PASS,models\final_epigenomic_calibrated_model.pkl
+package,Package file: final_epigenomic_model_config.json,PASS,models\final_epigenomic_model_config.json
+package,Package file: month2_final_report.md,PASS,reports\month2_final_report.md
+manuscript,month2_manuscript_results.md,PASS,"3,032 characters"
+manuscript,month2_manuscript_discussion.md,PASS,"3,731 characters"
+manuscript,month2_manuscript_conclusions.md,PASS,968 characters
+manuscript,month2_manuscript_sections.md,PASS,"7,735 characters"

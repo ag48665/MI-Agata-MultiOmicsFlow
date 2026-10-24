@@ -1,0 +1,13 @@
+project:
+  name: Clinical Genomics AI
+
+datasets:
+  primary: TCGA-BRCA
+  secondary: TCGA-LAML
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  outputs: outputs
+
+random_seed: 42

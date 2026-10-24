@@ -1,0 +1,7 @@
+subtype,count,percent
+BRCA_LumA,499,49.45
+BRCA_LumB,197,19.52
+BRCA_Basal,171,16.95
+BRCA_Her2,78,7.73
+BRCA_Normal,36,3.57
+Missing,28,2.78

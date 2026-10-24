@@ -1,0 +1,4 @@
+parameter,value
+calibration_method,isotonic
+threshold_objective,maximize_balanced_accuracy
+final_threshold,0.11499999999999998

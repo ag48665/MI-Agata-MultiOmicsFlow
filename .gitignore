@@ -1,0 +1,129 @@
+
+# ==========================================
+# MI-Agata-MultiOmicsFlow
+# Public GitHub Repository - .gitignore
+# ==========================================
+
+# ------------------------------------------
+# 1. Raw and processed datasets
+# ------------------------------------------
+data/raw/
+data/processed/
+data/private/
+data/restricted/
+
+# Large transcriptomics datasets
+month3_transcriptomics/data/raw/
+month3_transcriptomics/data/processed/
+
+# ------------------------------------------
+# 2. Trained models
+# ------------------------------------------
+outputs/models/
+*.joblib
+*.pkl
+*.pickle
+
+# ------------------------------------------
+# 3. Python cache and temporary files
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ------------------------------------------
+# 4. Python virtual environments
+# ------------------------------------------
+.venv/
+venv/
+env/
+
+# ------------------------------------------
+# 5. Local configuration and secrets
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+.envrc
+
+credentials.json
+secrets.json
+*credentials*.json
+*secrets*.json
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# ------------------------------------------
+# 6. IDE and editor settings
+# ------------------------------------------
+.vscode/
+.idea/
+
+# ------------------------------------------
+# 7. Operating system files
+# ------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# 8. Local logs and temporary files
+# ------------------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ------------------------------------------
+# 9. Patient-level and clinical data
+# LOCAL ONLY - DO NOT PUBLISH
+# ------------------------------------------
+/outputs/tables/clinical_genomic_summary.csv
+/outputs/tables/clinical_missingness_summary.csv
+/outputs/tables/mutation_counts_per_patient.csv
+
+# ------------------------------------------
+# 10. Sample-level transcriptomics data
+# LOCAL ONLY - DO NOT PUBLISH
+# ------------------------------------------
+/month3_transcriptomics/outputs/tables/tcga_brca_pca_coordinates.csv
+
+# ------------------------------------------
+# 11. Patient-level epigenomics reports
+# LOCAL ONLY - DO NOT PUBLISH
+# ------------------------------------------
+/month2_epigenomics/reports/methylation_patient_matching.md
+
+# ------------------------------------------
+# 12. Patient-level figures
+# LOCAL ONLY - DO NOT PUBLISH
+# ------------------------------------------
+/outputs/figures/mutation_burden_by_clinical_group.png
+/outputs/figures/mutations_per_patient.png
+
+# ------------------------------------------
+# 13. Detailed genomic reports
+# LOCAL ONLY - DO NOT PUBLISH
+# ------------------------------------------
+/month2_epigenomics/reports/methylation_data_overview.md
+/outputs/reports/data_overview.md
+
+# ------------------------------------------
+# 14. Local security scan reports
+# ------------------------------------------
+*gitleaks*.json
+*gitleaks*.sarif
+
+# ==========================================
+# END OF .gitignore
+# ==========================================

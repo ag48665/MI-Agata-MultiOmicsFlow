@@ -1,0 +1,171 @@
+feature,is_methylation
+age,False
+days_last_followup,False
+days_to_birth,False
+aneuploidy_score,False
+msi_score_mantis,False
+msi_sensor_score,False
+tmb_nonsynonymous,False
+tbl_score,False
+mutation_count,False
+unique_mutated_genes,False
+unique_variant_classes,False
+meth_cg00211215,True
+meth_cg00103771,True
+meth_cg00177787,True
+meth_cg00011616,True
+meth_cg00084338,True
+meth_cg00063471,True
+meth_cg00064255,True
+meth_cg00055764,True
+meth_cg00100121,True
+meth_cg00332802,True
+meth_cg00347563,True
+meth_cg00257271,True
+meth_cg00197993,True
+meth_cg00157199,True
+meth_cg00289546,True
+meth_cg00200653,True
+meth_cg00204249,True
+meth_cg00074145,True
+meth_cg00347904,True
+meth_cg00268840,True
+meth_cg00063174,True
+meth_cg00107982,True
+meth_cg00241712,True
+meth_cg00002719,True
+meth_cg00199007,True
+meth_cg00377087,True
+meth_cg00065215,True
+meth_cg00343633,True
+meth_cg00217080,True
+meth_cg00186815,True
+meth_cg00157796,True
+meth_cg00244745,True
+meth_cg00056066,True
+meth_cg00295572,True
+meth_cg00268185,True
+meth_cg00377344,True
+meth_cg00034076,True
+meth_cg00223136,True
+meth_cg00317585,True
+meth_cg00001747,True
+meth_cg00036011,True
+meth_cg00117172,True
+meth_cg00333483,True
+meth_cg00091953,True
+meth_cg00133595,True
+meth_cg00095594,True
+meth_cg00225603,True
+meth_cg00303982,True
+meth_cg00041599,True
+meth_cg00376544,True
+subtype_BRCA_Her2,False
+subtype_BRCA_LumA,False
+subtype_BRCA_LumB,False
+subtype_BRCA_Normal,False
+sex_Male,False
+ajcc_pathologic_tumor_stage_STAGE IA,False
+ajcc_pathologic_tumor_stage_STAGE IB,False
+ajcc_pathologic_tumor_stage_STAGE II,False
+ajcc_pathologic_tumor_stage_STAGE IIA,False
+ajcc_pathologic_tumor_stage_STAGE IIB,False
+ajcc_pathologic_tumor_stage_STAGE III,False
+ajcc_pathologic_tumor_stage_STAGE IIIA,False
+ajcc_pathologic_tumor_stage_STAGE IIIB,False
+ajcc_pathologic_tumor_stage_STAGE IIIC,False
+ajcc_pathologic_tumor_stage_STAGE IV,False
+ajcc_pathologic_tumor_stage_STAGE X,False
+ajcc_staging_edition_4TH,False
+ajcc_staging_edition_5TH,False
+ajcc_staging_edition_6TH,False
+ajcc_staging_edition_7TH,False
+ethnicity_Not Hispanic Or Latino,False
+history_neoadjuvant_trtyn_Yes,False
+icd_10_C50.8,False
+icd_10_C50.9,False
+icd_o_3_histology_8013/3,False
+icd_o_3_histology_8022/3,False
+icd_o_3_histology_8050/3,False
+icd_o_3_histology_8200/3,False
+icd_o_3_histology_8211/3,False
+icd_o_3_histology_8480/3,False
+icd_o_3_histology_8500/3,False
+icd_o_3_histology_8502/3,False
+icd_o_3_histology_8503/3,False
+icd_o_3_histology_8507/3,False
+icd_o_3_histology_8510/3,False
+icd_o_3_histology_8520/3,False
+icd_o_3_histology_8522/3,False
+icd_o_3_histology_8523/3,False
+icd_o_3_histology_8524/3,False
+icd_o_3_histology_8541/3,False
+icd_o_3_histology_8575/3,False
+icd_o_3_histology_9020/3,False
+icd_o_3_site_C50.8,False
+icd_o_3_site_C50.9,False
+new_tumor_event_after_initial_treatment_Yes,False
+path_m_stage_M0,False
+path_m_stage_M1,False
+path_m_stage_MX,False
+path_n_stage_N0 (I+),False
+path_n_stage_N0 (I-),False
+path_n_stage_N0 (MOL+),False
+path_n_stage_N1,False
+path_n_stage_N1A,False
+path_n_stage_N1B,False
+path_n_stage_N1C,False
+path_n_stage_N1MI,False
+path_n_stage_N2,False
+path_n_stage_N2A,False
+path_n_stage_N3,False
+path_n_stage_N3A,False
+path_n_stage_N3B,False
+path_n_stage_NX,False
+path_t_stage_T1A,False
+path_t_stage_T1B,False
+path_t_stage_T1C,False
+path_t_stage_T2,False
+path_t_stage_T2A,False
+path_t_stage_T3,False
+path_t_stage_T4,False
+path_t_stage_T4B,False
+path_t_stage_T4D,False
+path_t_stage_TX,False
+person_neoplasm_cancer_status_With Tumor,False
+primary_lymph_node_presentation_assessment_Yes,False
+prior_dx_Yes,False
+race_Asian,False
+race_Black or African American,False
+race_White,False
+radiation_therapy_Yes,False
+in_pancanpathways_freeze_Yes,False
+genetic_ancestry_label_AFR,False
+genetic_ancestry_label_AFR_ADMIX,False
+genetic_ancestry_label_AMR,False
+genetic_ancestry_label_EAS,False
+genetic_ancestry_label_EAS_ADMIX,False
+genetic_ancestry_label_EUR,False
+genetic_ancestry_label_EUR_ADMIX,False
+genetic_ancestry_label_SAS,False
+genetic_ancestry_label_SAS_ADMIX,False
+oncotree_code_BRCNOS,False
+oncotree_code_IDC,False
+oncotree_code_ILC,False
+oncotree_code_IMMC,False
+oncotree_code_MBC,False
+cancer_type_detailed_Breast Invasive Ductal Carcinoma,False
+cancer_type_detailed_Breast Invasive Lobular Carcinoma,False
+cancer_type_detailed_Breast Invasive Mixed Mucinous Carcinoma,False
+cancer_type_detailed_Invasive Breast Carcinoma,False
+cancer_type_detailed_Metaplastic Breast Cancer,False
+tumor_type_Infiltrating Carcinoma (NOS),False
+tumor_type_Infiltrating Ductal Carcinoma,False
+tumor_type_Infiltrating Lobular Carcinoma,False
+tumor_type_Medullary Carcinoma,False
+tumor_type_Metaplastic Carcinoma,False
+tumor_type_Mixed Histology (NOS),False
+tumor_type_Mucinous Carcinoma,False
+tumor_type_Other,False
+tissue_prospective_collection_indicator_Yes,False
+tissue_retrospective_collection_indicator_Yes,False
