@@ -90,7 +90,7 @@ The volcano plot visualizes gene-level statistical significance against log2 fol
 
 ![TCGA-BRCA Volcano Plot](https://raw.githubusercontent.com/ag48665/MI-Agata-MultiOmicsFlow/main/month3_transcriptomics/figures/tcga_brca_volcano_plot.png)
 
-[View Volcano Plot](https://github.com/ag48665/MI-Agata-MultiOmicsFlow/blob/main/month3_transcriptomics/figures/tcga_brca_volcano_plot.png)
+
 
 ## 5. Exploratory Gene Expression Analysis
 
