@@ -1,0 +1,12 @@
+{
+  "bulk_significant_rows": 7699,
+  "bulk_mapped_rows": 6365,
+  "bulk_unique_mapped_symbols": 6357,
+  "single_cell_marker_rows": 250,
+  "single_cell_unique_marker_symbols": 214,
+  "shared_unique_gene_symbols": 80,
+  "overlap_rows": 95,
+  "clusters_with_overlap": 22,
+  "ambiguous_ensembl_ids_excluded": 0,
+  "note": "Descriptive overlap only. No statistical enrichment or independent validation is claimed."
+}
