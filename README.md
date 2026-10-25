@@ -461,3 +461,118 @@ The module contributes a structured transcriptomics analysis component to the br
 **Dataset:** TCGA-BRCA  
 **Final analysis status:** Completed  
 **Final implemented QC status:** PASS
+
+---
+
+## 16. Month 3 — Complete Transcriptomics Overview
+
+Month 3 of MI-Agata-MultiOmicsFlow comprises three completed
+analytical components:
+
+### 16.1 Bulk RNA-seq — TCGA-BRCA
+
+- 28,659 genes tested for differential expression.
+- 7,699 significant differentially expressed genes.
+- 120 significant GO Biological Process terms.
+- 28 significant KEGG pathways.
+- Final implemented quality control: PASS.
+
+Detailed results:
+`month3_transcriptomics/reports/tcga_brca_final_summary.md`
+
+### 16.2 Single-cell RNA-seq — GSE176078
+
+- Breast cancer single-cell RNA-seq analysis.
+- 9,566 cells from 26 biological samples.
+- 25 Leiden clusters.
+- Quality control, normalization, PCA, UMAP,
+  marker analysis, cell-type annotation and
+  cell-type composition analysis completed.
+
+Documentation:
+`month3_transcriptomics/single_cell/README.md`
+
+Final report:
+`month3_transcriptomics/single_cell/reports/single_cell_final_summary.md`
+
+### 16.3 Exploratory Bulk and Single-cell Integration
+
+- 80 shared unique gene symbols.
+- 95 cluster-gene overlap rows.
+- 22 Leiden clusters with gene matches.
+- Exact gene-symbol matching was used.
+
+The overlap is descriptive and does not constitute
+independent biological validation.
+
+Final report:
+`month3_transcriptomics/integration/reports/integration_final_summary.md`
+
+### 16.4 Completion Status
+
+The implemented Month 3 transcriptomics analyses are complete.
+
+The module provides documented scripts, results, figures,
+quality-control reports and exploratory integration outputs.
+
+Source datasets are not distributed through the repository.
+Users must obtain the relevant public datasets separately
+and follow their applicable access and usage conditions.
+
+
+---
+
+## 16. Month 3 — Complete Transcriptomics Overview
+
+Month 3 of MI-Agata-MultiOmicsFlow comprises three completed
+analytical components:
+
+### 16.1 Bulk RNA-seq — TCGA-BRCA
+
+- 28,659 genes tested for differential expression.
+- 7,699 significant differentially expressed genes.
+- 120 significant GO Biological Process terms.
+- 28 significant KEGG pathways.
+- Final implemented quality control: PASS.
+
+Detailed results:
+`month3_transcriptomics/reports/tcga_brca_final_summary.md`
+
+### 16.2 Single-cell RNA-seq — GSE176078
+
+- Breast cancer single-cell RNA-seq analysis.
+- 9,566 cells from 26 biological samples.
+- 25 Leiden clusters.
+- Quality control, normalization, PCA, UMAP,
+  marker analysis, cell-type annotation and
+  cell-type composition analysis completed.
+
+Documentation:
+`month3_transcriptomics/single_cell/README.md`
+
+Final report:
+`month3_transcriptomics/single_cell/reports/single_cell_final_summary.md`
+
+### 16.3 Exploratory Bulk and Single-cell Integration
+
+- 80 shared unique gene symbols.
+- 95 cluster-gene overlap rows.
+- 22 Leiden clusters with gene matches.
+- Exact gene-symbol matching was used.
+
+The overlap is descriptive and does not constitute
+independent biological validation.
+
+Final report:
+`month3_transcriptomics/integration/reports/integration_final_summary.md`
+
+### 16.4 Completion Status
+
+The implemented Month 3 transcriptomics analyses are complete.
+
+The module provides documented scripts, results, figures,
+quality-control reports and exploratory integration outputs.
+
+Source datasets are not distributed through the repository.
+Users must obtain the relevant public datasets separately
+and follow their applicable access and usage conditions.
