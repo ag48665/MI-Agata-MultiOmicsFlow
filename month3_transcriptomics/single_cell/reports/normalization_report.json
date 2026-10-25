@@ -1,0 +1,11 @@
+{
+  "dataset": "GSE176078",
+  "cells": 9566,
+  "genes": 29733,
+  "normalization": "total-count normalization",
+  "target_sum": 10000,
+  "transformation": "log1p",
+  "hvg_method": "seurat",
+  "highly_variable_genes": 2000,
+  "output_file": "gse176078_normalized_9566.h5ad"
+}

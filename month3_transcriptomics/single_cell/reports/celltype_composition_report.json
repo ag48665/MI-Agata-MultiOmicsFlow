@@ -1,0 +1,12 @@
+{
+  "dataset": "GSE176078",
+  "total_cells": 9566,
+  "subtype_cell_counts": {
+    "TNBC": 4034,
+    "ER+": 3691,
+    "HER2+": 1841
+  },
+  "cell_types": 9,
+  "analysis": "descriptive cell-level composition",
+  "limitation": "Cell-level proportions are descriptive; patient-level replication is required for inferential subtype comparisons."
+}

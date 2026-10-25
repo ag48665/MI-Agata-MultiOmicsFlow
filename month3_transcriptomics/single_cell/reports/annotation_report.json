@@ -1,0 +1,14 @@
+{
+  "dataset": "GSE176078",
+  "cells": 9566,
+  "genes": 29733,
+  "clusters": 25,
+  "cell_types": 9,
+  "annotation_source": "GSE176078 celltype_major",
+  "method": "original cell-level annotations",
+  "clusters_below_90pct_dominance": [
+    "1",
+    "14",
+    "20"
+  ]
+}

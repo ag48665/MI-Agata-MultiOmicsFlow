@@ -1,0 +1,24 @@
+{
+  "dataset": "GSE176078",
+  "cells": 9566,
+  "samples": 26,
+  "samples_per_subtype": {
+    "ER+": 11,
+    "HER2+": 5,
+    "TNBC": 10
+  },
+  "cell_types": [
+    "B-cells",
+    "CAFs",
+    "Cancer Epithelial",
+    "Endothelial",
+    "Myeloid",
+    "Normal Epithelial",
+    "PVL",
+    "Plasmablasts",
+    "T-cells"
+  ],
+  "analysis_level": "sample",
+  "statistical_tests_performed": false,
+  "note": "Sample-level descriptive analysis. Biological independence requires source metadata verification."
+}

@@ -1,0 +1,4 @@
+subtype,B-cells,CAFs,Cancer Epithelial,Endothelial,Myeloid,Normal Epithelial,PVL,Plasmablasts,T-cells
+ER+,50,229,1067,554,200,226,327,61,977
+HER2+,54,162,150,85,126,95,86,31,1052
+TNBC,194,256,953,149,625,71,138,245,1403

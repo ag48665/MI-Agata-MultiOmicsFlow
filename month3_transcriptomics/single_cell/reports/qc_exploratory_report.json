@@ -1,0 +1,13 @@
+{
+  "dataset": "GSE176078",
+  "input_cells": 10000,
+  "input_genes": 29733,
+  "cells_passing_qc": 9980,
+  "cells_excluded": 20,
+  "thresholds": {
+    "min_genes": 200,
+    "max_genes": 7500,
+    "max_mito_percent": 20.0
+  },
+  "note": "Exploratory QC only. Thresholds require review before producing a filtered dataset."
+}

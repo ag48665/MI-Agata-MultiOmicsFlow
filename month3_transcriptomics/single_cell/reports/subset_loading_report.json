@@ -1,0 +1,10 @@
+{
+  "dataset": "GSE176078",
+  "total_cells": 100064,
+  "selected_cells": 10000,
+  "genes": 29733,
+  "nonzero_entries": 17943162,
+  "seed": 42,
+  "anndata_version": "0.13.4",
+  "output": "C:\\MultiOmics\\MI-Agata-MultiOmicsFlow-clean\\month3_transcriptomics\\single_cell\\outputs\\gse176078_subset_10000.h5ad"
+}

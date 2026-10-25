@@ -1,0 +1,26 @@
+leiden,cells,dominant_celltype,dominant_cells,dominant_pct
+0,784,Endothelial,781,99.62
+1,706,CAFs,618,87.54
+2,564,PVL,534,94.68
+3,268,B-cells,266,99.25
+4,657,T-cells,656,99.85
+5,407,T-cells,407,100.0
+6,1033,T-cells,1021,98.84
+7,370,T-cells,370,100.0
+8,111,T-cells,104,93.69
+9,919,Myeloid,907,98.69
+10,32,Myeloid,32,100.0
+11,116,Normal Epithelial,115,99.14
+12,174,Normal Epithelial,173,99.43
+13,226,Cancer Epithelial,224,99.12
+14,472,Cancer Epithelial,360,76.27
+15,224,Cancer Epithelial,218,97.32
+16,350,Plasmablasts,330,94.29
+17,421,Cancer Epithelial,420,99.76
+18,530,T-cells,527,99.43
+19,63,Cancer Epithelial,63,100.0
+20,351,T-cells,314,89.46
+21,301,Cancer Epithelial,299,99.34
+22,110,Cancer Epithelial,110,100.0
+23,177,Cancer Epithelial,168,94.92
+24,200,Cancer Epithelial,200,100.0

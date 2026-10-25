@@ -1,0 +1,13 @@
+{
+  "project": "MI-Agata-MultiOmicsFlow",
+  "module": "Month 3 - Single-cell RNA-seq",
+  "dataset_id": "GSE176078",
+  "dataset_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078",
+  "assessment_date_utc": "2026-10-24T17:54:24.535183+00:00",
+  "scanpy_version": "1.12.4",
+  "python_version": "3.13.14",
+  "files_found": 0,
+  "total_size_mb": 0.0,
+  "status": "AWAITING_DATA",
+  "note": "Inventory only. Expression matrix and metadata have not yet been validated."
+}

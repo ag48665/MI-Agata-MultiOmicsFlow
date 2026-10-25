@@ -1,0 +1,13 @@
+{
+  "dataset": "GSE176078",
+  "input_cells": 10000,
+  "filtered_cells": 9566,
+  "removed_cells": 434,
+  "genes": 29733,
+  "qc_thresholds": {
+    "min_genes": 200,
+    "max_genes": 7500,
+    "max_percent_mito": 15
+  },
+  "output_file": "gse176078_filtered_9566.h5ad"
+}

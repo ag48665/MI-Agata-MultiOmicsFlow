@@ -1,0 +1,10 @@
+{
+  "dataset": "GSE176078",
+  "cells": 9566,
+  "genes": 29733,
+  "highly_variable_genes": 2000,
+  "principal_components": 50,
+  "variance_explained_first_10_pct": 18.16,
+  "random_state": 42,
+  "output_file": "gse176078_pca_9566.h5ad"
+}

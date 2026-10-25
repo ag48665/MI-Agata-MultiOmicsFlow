@@ -127,3 +127,17 @@ desktop.ini
 # ==========================================
 # END OF .gitignore
 # ==========================================
+.venv-sc/
+/month3_transcriptomics/single_cell/data/
+/month3_transcriptomics/single_cell/outputs/tmp/
+/month3_transcriptomics/single_cell/outputs/cache/
+*.h5ad
+*.h5mu
+*.loom
+*.mtx
+*.mtx.gz
+
+# Single-cell outputs requiring separate publication review
+/month3_transcriptomics/single_cell/outputs/tables/leiden_marker_genes.csv
+/month3_transcriptomics/single_cell/outputs/tables/celltype_composition_per_sample.csv
+/month3_transcriptomics/single_cell/reports/qc_summary_before_filtering.csv

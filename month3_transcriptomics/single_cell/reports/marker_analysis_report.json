@@ -1,0 +1,9 @@
+{
+  "dataset": "GSE176078",
+  "cells": 9566,
+  "genes": 29733,
+  "cluster_column": "leiden",
+  "clusters": 25,
+  "method": "wilcoxon",
+  "marker_rows": 743325
+}
